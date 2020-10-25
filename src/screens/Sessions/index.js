@@ -32,6 +32,7 @@ export default class Sessions extends Component {
 <CircularBold style={styles.heading}>Meditate today,</CircularBold>
 <TextRegular style={styles.subHeading}>How to deal with your sadness?</TextRegular>
 </View>
+<View style={{flex:1,justifyContent:"flex-end"}}>
 <View style={styles.slidesContainer}>
     <View style={styles.slidesRow}>
         <View style={styles.sessionCountContainer}>
@@ -77,6 +78,7 @@ marginTop:vh*3}}>
 </View>
 <Image source={icons.next} style={styles.changeBtn} resizeMode="contain"/>
 
+</View>
 </View>
 </View>
 
